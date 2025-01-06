@@ -52,7 +52,21 @@ Website penjualan lele berbasis web yang dibangun menggunakan framework Laravel 
    ```bash  
    php artisan serve  
    ```  
-10. Akses website di: [http://127.0.0.1:8000](http://127.0.0.1:8000)  
+10. Akses website di: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+11. Cara Fix Timestamp
+    Tambahkan program pada [vendor/nesbot/carbon/src/Carbon/Traits/TimeStamp.php]
+    ```bash
+    #[\ReturnTypeWillChange]
+    ```
+    Di atas
+    ```bash
+    #[\ReturnTypeWillChange]
+    public static function createFromTimestamp($timestamp, $tz = null)
+    {
+    // ...
+    }
+    ```
+    Save Program lalu keluar dan jalankan lagi 
 
 ---
 
