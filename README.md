@@ -35,20 +35,24 @@ Website penjualan lele berbasis web yang dibangun menggunakan framework Laravel 
    DB_DATABASE=nama_database  
    DB_USERNAME=root  
    DB_PASSWORD=  
-   ```  
-5. Jalankan perintah untuk membuat key aplikasi:  
+   ```
+5. Jalankan perintah untuk menginstall file hilang (vendor)
+6. ```bash
+   composer install
+   ``` 
+7. Jalankan perintah untuk membuat key aplikasi:  
    ```bash  
    php artisan key:generate  
    ```  
-6. Migrasikan database:  
+8. Migrasikan database:  
    ```bash  
    php artisan migrate  
    ```  
-7. Jalankan server lokal Laravel:  
+9. Jalankan server lokal Laravel:  
    ```bash  
    php artisan serve  
    ```  
-8. Akses website di: [http://127.0.0.1:8000](http://127.0.0.1:8000)  
+10. Akses website di: [http://127.0.0.1:8000](http://127.0.0.1:8000)  
 
 ---
 
