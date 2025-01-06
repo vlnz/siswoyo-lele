@@ -17,7 +17,7 @@ Website penjualan lele berbasis web yang dibangun menggunakan framework Laravel 
 ## Cara Menjalankan:  
 1. Clone repositori ini ke lokal:  
    ```bash  
-   git clone https://github.com/username/repository.git  
+   git clone https://github.com/vlnz/siswoyo-lele.git  
    ```  
 2. Masuk ke direktori project:  
    ```bash  
